@@ -120,6 +120,7 @@ h4.yellow {
   color: #000;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
+  letter-spacing: 1px;
 }
 
 /* On hover, the links will turn black*/
@@ -205,16 +206,23 @@ footer {
 .contact-box-left {
   padding-left: 20px;
   text-align: left;
-  display: block;
-  /*    position: relative;*/
+  display: inline-block;
+  position: relative;
   margin-bottom: 45px;
 }
 
+
+
 .contact-icon-left {
-  left: 0;
-  top: 5px;
+  padding-top: 5px;
+  margin-right: 30px;
   position: absolute;
+  text-align: left;
+   display: inline-block;
+   left: 0;
 }
+
+
 
 /* CONTACT FORM */
 
